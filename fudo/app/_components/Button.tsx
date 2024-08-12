@@ -1,12 +1,15 @@
 import { ComponentProps, ReactNode } from "react";
 
-type ButtonProps = ComponentProps<'button'> & {
-    children: ReactNode;
+type ButtonProps = ComponentProps<"button"> & {
+  children: ReactNode;
 };
 
 const Button = ({ children, ...props }: ButtonProps) => {
   return (
-    <button {...props} className='bg-[#F44648] p-3 px-7 rounded-full text-[#fff] flex gap-2 hover:bg-[#db3f42] transition-all ease-in 0.3 '>
+    <button
+      {...props}
+      className="0.3 flex gap-2 rounded-full bg-[#F44648] p-3 px-7 text-[#fff] transition-all ease-in hover:bg-[#db3f42]"
+    >
       {children}
     </button>
   );

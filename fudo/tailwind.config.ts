@@ -7,13 +7,6 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    backgroundImage:{
-      primary: '#da3f3f'
-    },
-    colors: {
-      primary: '#da3f3f',
-      segundary: '#2E2E2E'
-    }
   },
   plugins: [],
 };
