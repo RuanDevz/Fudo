@@ -7,7 +7,13 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      colors: {
+        primary: '#F44648',
+      },
+    },
   },
   plugins: [],
 };
+
 export default config;

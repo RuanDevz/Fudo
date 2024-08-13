@@ -21,7 +21,7 @@ const Homepage = () => {
         <div>
           <h1 className="mt-10 max-w-3xl text-7xl font-bold text-gray-800">
             Seja o mais rápido na entrega de sua{" "}
-            <span className="text-[#F44648]">comida</span>
+            <span className="text-primary">comida</span>
           </h1>
           <p className="my-7 max-w-xl text-lg text-gray-500">
             Nosso trabalho é encher sua barriga com comida deliciosa e com
@@ -31,7 +31,7 @@ const Homepage = () => {
             <Button className="">Fazer pedido</Button>
             <div className="flex items-center gap-3">
               <Play/>
-              <p className="text-gray-500 font-semibold hover:text-[#F44648] cursor-pointer transition-all ease-in ">Assistir vídeo</p>
+              <p className="text-gray-500 font-semibold hover:text-primary cursor-pointer transition-all ease-in ">Assistir vídeo</p>
             </div>
           </div>
         </div>
