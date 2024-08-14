@@ -6,7 +6,7 @@ import GoodGirl from '../../assets/header.png'
 
 const Homepage = () => {
   return (
-    <main className="mx-auto max-w-7xl flex items-center mt-10">
+    <main className="mx-auto  flex justify-center items-center pt-10  w-full">
       <section>
         <div className="mt-20 flex w-52 flex-row-reverse items-center justify-center gap-4 rounded-full bg-red-100 p-3 text-red-500">
           <Image
@@ -20,8 +20,8 @@ const Homepage = () => {
         </div>
         <div>
           <h1 className="mt-10 max-w-3xl text-7xl font-bold text-gray-800">
-            Seja o mais rápido na entrega de sua{" "}
-            <span className="text-primary">comida</span>
+            Seja o Mais Rápido na Entrega de Sua{" "}
+            <span className="text-primary">Comida</span>
           </h1>
           <p className="my-7 max-w-xl text-lg text-gray-500">
             Nosso trabalho é encher sua barriga com comida deliciosa e com

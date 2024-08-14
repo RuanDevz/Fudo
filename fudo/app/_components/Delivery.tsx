@@ -9,8 +9,8 @@ const Delivery = () => {
     <div className="mx-auto max-w-7xl">
       <section className="mt-56 flex flex-col items-center flex-wrap justify-center">
         <Subtext>O QUE SERVIMOS</Subtext>
-        <h1 className="mt-5 max-w-3xl text-center text-5xl font-bold text-gray-800">
-          Seu parceiro de entrega de comida favorito
+        <h1 className="mt-5 max-w-3xl text-center text-5xl font-bold text-gray-800 leading-normal">
+          Seu Parceiro De Entrega De Comida Favorito
         </h1>
       </section>
       <section className="mt-20 flex items-center justify-between">

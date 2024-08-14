@@ -6,7 +6,7 @@ import { LogIn } from "lucide-react";
 
 const Header: FC = () => {
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-[#fdf3f3] shadow-md">
       <div className="mx-auto flex max-w-7xl items-center justify-between p-7">
         <div className="flex items-center gap-2 font-semibold">
           <Image src={logo} alt="Logo" quality={100} width={40} height={40} />

@@ -28,7 +28,6 @@ export default function RootLayout({
         />
       </head>
       <body className={poppins.className}>
-        <Header />
         {children}
       </body>
     </html>

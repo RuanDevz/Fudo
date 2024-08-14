@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background: linear-gradient(to left, #FEEDED, #FFF);
+.color {
+    background: linear-gradient(to bottom, #FEEDED, #FFF);
   }
