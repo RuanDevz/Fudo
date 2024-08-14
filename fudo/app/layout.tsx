@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
 import { ReactNode } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "FODU",
@@ -17,7 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={inter.className}>
+      <head>
+        <link
+          rel="shortcut icon"
+          href="/favicon.ico" 
+          type="image/x-icon"
+        />
+      </head>
+      <body className={poppins.className}>
         <Header />
         {children}
       </body>

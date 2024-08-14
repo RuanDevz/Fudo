@@ -2,14 +2,13 @@ import Image from "next/image";
 import OrderImage from "../../assets/service-1.png"; 
 import DeliveryImage from "../../assets/service-2.png"; 
 import QualityImage from "../../assets/service-3.png"; 
+import Subtext from "./Subtext";
 
 const Delivery = () => {
   return (
     <div className="mx-auto max-w-7xl">
       <section className="mt-56 flex flex-col items-center flex-wrap justify-center">
-        <p className="text-primary font-semibold tracking-[4px]">
-          O QUE SERVIMOS
-        </p>
+        <Subtext>O QUE SERVIMOS</Subtext>
         <h1 className="mt-5 max-w-3xl text-center text-5xl font-bold text-gray-800">
           Seu parceiro de entrega de comida favorito
         </h1>
