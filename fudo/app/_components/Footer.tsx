@@ -4,8 +4,7 @@ import { Facebook, Instagram, X } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="mx-auto flex max-w-7xl py-10">
-      {/* Seção com logo e informações */}
+    <footer className="mx-auto flex max-w-7xl py-20">
       <section className="flex-1 flex flex-col items-start">
         <div className="flex items-center gap-3 mb-4">
           <Image width={50} height={50} src={logo} alt="Logo" quality={100} />
