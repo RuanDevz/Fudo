@@ -4,14 +4,14 @@ import Subtext from "./Subtext";
 const List = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <div className="flex flex-col gap-8 justify-start items-start mt-40">
+      <div className="mt-40 flex flex-col items-start justify-start gap-8">
         <Subtext>NOSSO CARDÁPIO</Subtext>
-        <h1 className="text-5xl max-w-2xl font-bold text-gray-900 leading-snug">
+        <h1 className="max-w-2xl text-5xl font-bold leading-snug text-gray-900">
           Cardápio Que Sempre Faz Você Se Apaixonar
         </h1>
       </div>
       <div className="mt-20">
-        <Carrossel/>
+        <Carrossel />
       </div>
     </div>
   );
