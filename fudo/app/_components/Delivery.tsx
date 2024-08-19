@@ -9,11 +9,11 @@ const Delivery = () => {
     <div className="mx-auto max-w-7xl">
       <section className="mt-56 flex flex-col items-center flex-wrap justify-center">
         <Subtext>O QUE SERVIMOS</Subtext>
-        <h1 className="mt-5 max-w-3xl text-center text-5xl font-bold text-gray-800 leading-normal">
+        <h1 className="mt-5 max-w-3xl text-center text-2xl lg:text-5xl font-bold text-gray-800 leading-normal">
           Seu Parceiro De Entrega De Comida Favorito
         </h1>
       </section>
-      <section className="mt-20 flex items-center justify-between">
+      <section className="mt-20 flex items-center flex-col gap-10 lg:flex-row lg:gap-0 justify-between">
         <div className="max-w-80">
           <Image width={270} height={270} src={OrderImage} alt="Order" />
           <h1 className="text-center text-2xl font-bold text-gray-800">
