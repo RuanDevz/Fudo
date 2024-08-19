@@ -6,9 +6,9 @@ import GoodGirl from '../../assets/header.png'
 
 const Homepage = () => {
   return (
-    <main className="mx-auto  flex justify-center items-center pt-10  w-full">
+    <main className="mx-auto  flex justify-center flex-col-reverse lg:flex-row items-center pt-10  w-full">
       <section>
-        <div className="mt-20 flex w-52 flex-row-reverse items-center justify-center gap-4 rounded-full bg-red-100 p-3 text-red-500">
+        <div className="mt-20 flex w-52 flex-row-reverse items-center mx-auto lg:m-0 justify-center gap-4 rounded-full bg-red-100 p-3 text-red-500 lg:mb-10">
           <Image
             src={delivery}
             quality={100}
@@ -19,15 +19,15 @@ const Homepage = () => {
           <p>Mais que rápido</p>
         </div>
         <div>
-          <h1 className="mt-10 max-w-3xl text-7xl font-bold text-gray-800">
+          <h1 className="mt-10 max-w-80 mx-auto text-2xl lg:text-7xl lg:mt-0 lg:max-w-3xl  font-bold text-gray-800">
             Seja o Mais Rápido na Entrega de Sua{" "}
             <span className="text-primary">Comida</span>
           </h1>
-          <p className="my-7 max-w-xl text-lg text-gray-500">
+          <p className="my-7 mx-5 lg:mx-0 max-w-xl text-lg text-gray-500">
             Nosso trabalho é encher sua barriga com comida deliciosa e com
             entrega rápida e gratuita.
           </p>
-          <div className="flex items-center gap-10">
+          <div className="flex items-center justify-center gap-5 mx-auto lg:m-0 lg:gap-10 lg:justify-start">
             <Button className="">Fazer pedido</Button>
             <div className="flex items-center gap-3">
               <Play/>
