@@ -42,7 +42,7 @@ const Carrossel = () => {
   ];
 
   return (
-    <div className="flex max-w-7xl flex-wrap justify-between">
+    <div className="flex max-w-7xl flex-wrap justify-center lg:justify-between">
       {ListProducts.map((product, index) => (
         <div className="relative rounded-2xl p-5 shadow-2xl" key={index}>
           <Image
