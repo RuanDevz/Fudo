@@ -13,7 +13,7 @@ const Delivery = () => {
           Seu Parceiro De Entrega De Comida Favorito
         </h1>
       </section>
-      <section className="mt-20 flex items-center flex-col gap-10 lg:flex-row lg:gap-0 justify-between">
+      <section className="mt-20 flex items-center flex-col gap-10 lg:flex-row justify-between">
         <div className="max-w-80">
           <Image width={270} height={270} src={OrderImage} alt="Order" />
           <h1 className="text-center text-2xl font-bold text-gray-800">
