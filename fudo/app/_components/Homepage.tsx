@@ -1,14 +1,18 @@
 import Image from "next/image";
 import delivery from "../../assets/delivery-bike.png";
 import Button from "./Button";
-import Play from '../_components/Play'
-import GoodGirl from '../../assets/header.png'
+import Play from "../_components/Play";
+import GoodGirl from "../../assets/header.png";
 
 const Homepage = () => {
   return (
-    <main className="mx-auto  flex justify-center flex-col-reverse lg:flex-row items-center pt-10  w-full">
+    <main className="mx-auto flex w-full flex-col-reverse items-center justify-center pt-10 lg:flex-row">
       <section>
-        <div className="mt-20 flex w-52 flex-row-reverse items-center mx-auto lg:m-0 justify-center gap-4 rounded-full bg-red-100 p-3 text-red-500 lg:mb-10">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="500"
+          className="mx-auto mt-20 flex w-52 flex-row-reverse items-center justify-center gap-4 rounded-full bg-red-100 p-3 text-red-500 lg:m-0 lg:mb-10"
+        >
           <Image
             src={delivery}
             quality={100}
@@ -19,25 +23,45 @@ const Homepage = () => {
           <p>Mais que rápido</p>
         </div>
         <div>
-          <h1 className="mt-10 max-w-80 mx-auto text-2xl lg:text-7xl lg:mt-0 lg:max-w-3xl  font-bold text-gray-800">
+          <h1
+            data-aos="fade-up"
+            data-aos-delay="800"
+            className="mx-auto mt-10 max-w-80 text-2xl font-bold text-gray-800 lg:mt-0 lg:max-w-3xl lg:text-7xl"
+          >
             Seja o Mais Rápido na Entrega de Sua{" "}
             <span className="text-primary">Comida</span>
           </h1>
-          <p className="my-7 mx-5 lg:mx-0 max-w-xl text-lg text-gray-500">
+          <p
+            data-aos="fade-up"
+            data-aos-delay="1200"
+            className="mx-5 my-7 max-w-xl text-lg text-gray-500 lg:mx-0"
+          >
             Nosso trabalho é encher sua barriga com comida deliciosa e com
             entrega rápida e gratuita.
           </p>
-          <div className="flex items-center justify-center gap-5 mx-auto lg:m-0 lg:gap-10 lg:justify-start">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="1500"
+            className="mx-auto flex items-center justify-center gap-5 lg:m-0 lg:justify-start lg:gap-10"
+          >
             <Button className="">Fazer pedido</Button>
             <div className="flex items-center gap-3">
-              <Play/>
-              <p className="text-gray-500 font-semibold hover:text-primary cursor-pointer transition-all ease-in ">Assistir vídeo</p>
+              <Play />
+              <p className="cursor-pointer font-semibold text-gray-500 transition-all ease-in hover:text-primary">
+                Assistir vídeo
+              </p>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <Image src={GoodGirl} width={600} height={600} quality={100} alt="Logo"/>
+      <section data-aos="fade-left">
+        <Image
+          src={GoodGirl}
+          width={600}
+          height={600}
+          quality={100}
+          alt="Logo"
+        />
       </section>
     </main>
   );

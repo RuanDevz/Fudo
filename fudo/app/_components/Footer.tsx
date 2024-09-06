@@ -1,8 +1,9 @@
+'use client'
 import Image from "next/image";
 import logo from "../../assets/logo.png";
 import { Facebook, Instagram, X } from "lucide-react";
-
 const Footer = () => {
+
   return (
     <footer className="mx-auto flex flex-col max-w-7xl py-20">
       <section className="flex-1 flex flex-col items-start">
