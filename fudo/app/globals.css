@@ -34,3 +34,7 @@
 .color {
   background: linear-gradient(to bottom, #FEEDED, #FFF);
 }
+
+body{
+  overflow-x: hidden;
+}
